@@ -45,24 +45,31 @@ document.getElementById("demo").style.fontSize = "35px";
 ## Syntax
  ### Values - literals (fixed values) VS variables
 
- ### Operators
-  #### Arithmetic ( + | - | * | / )
-  #### Assignment ( = )
+ ### Expressions - combo of operators and operands that computes to a value.
 
- ### Expressions - combo of values, variables, and operators that compute to a value.
-  #### Evaluation - the computation of an **expression**
+  #### Operands - part of expression that represents the data being manipulated by the operator.
+
+  #### Operators - used to execute operations on operands
+
+   ##### Arithmetic ( + | - | * | / | % | ++ | -- )
+   - increment - adds 1 ( ++ ); returns the value from **BEFORE** the increment if placed **AFTER** the operand and returns the value from **AFTER** the increment if placed **BEFORE** the operand 
+   - decrement - subtracts 1 ( -- ); returns the value from **BEFORE** the increment if placed **AFTER** the operand and returns the value from **AFTER** the increment if placed **BEFORE** the operand
+
+   ##### Assignment ( = | += | -= | *= | /= | %= | **= |)
+
+   ##### Comparison ( < | > | <= | >= )
  
  ### Keywords - used to identify actions to be performed.
 
  ### Identifiers - unique names that must begin with: a **letter**, **dollar sign**, or an **underscore**
 
-## Variables - containers for storing data
- ##### declare all variables at the beginning of a script
- ##### undefined variables - variables declared without a value
- 
- ### When to Use var, let, or const?
-  - Always use const if the value or type (arrays and objects) should not be changed
-  - Only use let if you can't use const
-  - Only use var if you MUST support old browsers.
+ ### Variables - containers for storing data
+  ##### declare all variables at the beginning of a script
+  ##### undefined variables - variables declared without a value
 
-## Data Types - Numbers, Strings
+      Scope Redeclare Reassign Hoisted Binds this
+var	   No     Yes	    Yes	     Yes     Yes
+let	   Yes 	  No	    Yes	     No	     No
+const  Yes	  No	    No	     No      No
+
+## Data Types - Numbers, Strings, Bigint, Boolean, Undefined, Null, Symbol, Object
