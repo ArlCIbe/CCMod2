@@ -57,7 +57,8 @@ document.getElementById("demo").style.fontSize = "35px";
 
    ##### Assignment ( = | += | -= | *= | /= | %= | **= |)
 
-   ##### Comparison ( < | > | <= | >= )
+   ##### Comparison - compares operands and returns a logical value based on whether the comparison is true 
+   ##### ( < | > | <= | >= )
  
  ### Keywords - used to identify actions to be performed.
 

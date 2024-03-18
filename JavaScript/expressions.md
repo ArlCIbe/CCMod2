@@ -48,34 +48,42 @@
  ### Other Operators [Operator Precedence](https://www.w3schools.com/js/js_precedence.asp)
   
   #### Bitwise - treats their operands as a set of 32 bits (zeros and ones) 
-   - &= - 
-   - ^=  
-   - |=  
+   - & - and
+   - | - or
+   - ~ - not
+   - ^ - xor
+   - << / >> / >>> - left / right / unsigned right shift
 
-  #### Comparison 
+   #### Logical - determine the logic between variables or values
+   - && - and
+   - || - or
+   - ! - not  
+
+  #### Other Comparison - determine equality or difference between variables or values
    - == - equal to 
    - === - equal value and equal type
    - != - not equal
-   - !== - not equal value/type 
-   - ? - ternary
-
-  #### Logical
-   - && - and
-   - || - or
-   - ! - not
-
-  #### Bitwise 
-   - & 
-   - | 
-   - ~ 
-   - ^ 
-   - << - left shift
-   - >> - right shift
-   - >>> - unsigned right shift
+   - !== - not equal value or not equal type 
+   - ? - **ternary:** assigns a value to a variable based on some condition.
+    `variablename = (condition) ? value1:value2`
+   - ?. - **optional chaining:** returns undefined if an object is undefined or null (instead of throwing an error)
+    ```
+    // Create an object:
+    const car = {type:"Fiat", model:"500", color:"white"};
+    // Ask for car name:
+    document.getElementById("demo").innerHTML = car?.name;
+    ```
 
   #### Type
    - typeof - returns the type of a variable
    - instanceof - returns true if an object is an instance of an object type
 
-  #### Bitwise Assignment ( &= / |= / ~= / ^= / <<= / >>= / >>>= )
+  ### Other Assignment
+
+   ##### Bitwise ( &= / ^= / |= )
+
+   ##### Shift ( <<= / >>= / >>>= )
+
+   ##### Logical ( &&= / ||= / ??= )
+   - ?? - **nullish (null or undefined) coalescing:** if the first value is undefined or null, the second value is assigned.
 
