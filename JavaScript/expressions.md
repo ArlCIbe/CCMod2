@@ -75,7 +75,7 @@
     ```
 
   #### Type
-   - typeof - returns the type of a variable
+   - typeof - returns the type of a variable/expression `typeof "John" // Returns "string"`
    - instanceof - returns true if an object is an instance of an object type
 
   ### Other Assignment
@@ -87,3 +87,11 @@
    ##### Logical ( &&= / ||= / ??= )
    - ?? - **nullish (null or undefined) coalescing:** if the first value is undefined or null, the second value is assigned.
 
+### note
+ #### if the first operand is a string, all operands are treated as strings
+ #### Extra large or extra small numbers can be written with scientific (exponential) notation
+  ```
+  let y = 123e5;    // 12300000
+  let z = 123e-5;   // 0.00123
+  ```
+ ####

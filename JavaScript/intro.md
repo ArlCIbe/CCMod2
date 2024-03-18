@@ -42,7 +42,7 @@
  ### `window.print()` - prints the content of the current window.
  `<button onclick="window.print()">Print this page</button>`
 
-## Statements 
+## Statements - line of code commanding a task in a computer programming language (every program is just a sequence of statements)
  ### semicolons go at the end of each *executable* statement
  ### often start with a keyword to identify the JavaScript action to be performed
 
@@ -68,9 +68,11 @@
 
  ### Identifiers - unique names that must begin with: a **letter**, **dollar sign**, or an **underscore**
 
- ### Variables - containers for storing data
+ ### Variables - containers for storing any type of data
   ##### declare all variables at the beginning of a script
-  ##### undefined variables - variables declared without a value
+  ##### variables declared without a value have a **value** AND **type** of undefined
+   **G2K:** you can manually empty a variable by setting it to undefined
+   **NOTE:** an empty value isn't synonymous with undefined `let car = ""; // The value is "", the typeof is "string"`
 
       Scope Redeclare Reassign Hoisted Binds this
 var	   No     Yes	    Yes	     Yes     Yes
@@ -78,3 +80,6 @@ let	   Yes 	  No	    Yes	     No	     No
 const  Yes	  No	    No	     No      No
 
 ## Data Types - Numbers, Strings, Bigint, Boolean, Undefined, Null, Symbol, Object
+ ### objects - can contain an object, an array, or a date; object properties are written as name:value pairs
+ ### numbers are always double (64-bit floating point)
+ ### BigInt is used to store really big integer values `let x = BigInt("123456789012345678901234567890")`
