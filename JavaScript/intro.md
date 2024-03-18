@@ -2,7 +2,9 @@
 
 ### Change HTML Content
 ```
-document.getElementById("demo").innerHTML = "Hello JavaScript";
+<p id="demo"></p>
+
+<script>document.getElementById("demo").innerHTML = "Hello JavaScript";</script>
 ```
 
 ### Change HTML Attributes
@@ -16,7 +18,9 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 
 ### Change HTML Styles
 ```
-document.getElementById("demo").style.fontSize = "35px";
+<p id="demo"></p>
+
+<script>document.getElementById("demo").style.fontSize = "35px";</script>
 ```
 
 ### Functions - a block of JS code that can be executed when "invoked" or "called" for.
