@@ -27,7 +27,8 @@
  #### **variable x - CALLER**
   #### **Note: the RETURN VALLUE** ***WILL*** **end up inside the x variable; ATP in the operation, this has** ***NOT*** **happened yet.**
 
-### PART 2: ```
+### PART 2: 
+### ```
 ### function myFunction(a, b) {
 ### // Function returns the product of a and b
 ###  return a * b;
