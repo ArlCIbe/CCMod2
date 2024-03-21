@@ -68,9 +68,11 @@
 
  ### Identifiers - unique names that must begin with: a **letter**, **dollar sign**, or an **underscore**
 
+ ###  namespsace -  conceptual container that provides scope to identifiers; used to prevent collisions between them
+
  ### Variables - containers for storing any type of data
   ##### declare all variables at the beginning of a script
-  ##### variables declared without a value have a **value** AND **type** of undefined
+  ##### variables declared without a value have a **value AND type** of undefined
    **G2K:** you can manually empty a variable by setting it to undefined
    **NOTE:** an empty value isn't synonymous with undefined `let car = ""; // The value is "", the typeof is "string"`
 
