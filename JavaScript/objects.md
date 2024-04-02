@@ -55,6 +55,12 @@
   
 ### will organize this later
 
+object initializers:
+
+- comma-delimited list of zero or more pairs of property names and associated values of an object, enclosed in {}
+- using Object.create()
+- invoking a constructor function with the new operator.
+
 functions are first-class objects, because they can be passed to other functions, returned from functions, and assigned to variables and properties. They can also have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called
 
 Class versus object
