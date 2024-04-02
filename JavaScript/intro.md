@@ -96,10 +96,10 @@
    **G2K:** you can manually empty a variable by setting it to undefined
    **NOTE:** an empty value isn't synonymous with undefined `let car = ""; // The value is "", the typeof is "string"`
 
-     Scope Redeclare Reassign Hoisted Binds this
+<!-- Scope Redeclare Reassign Hoisted Binds this
 var    No     Yes     Yes      Yes     Yes
 let    Yes    No      Yes      No      No
-const  Yes    No      No       No      No
+const  Yes    No      No       No      No -->
 
 ## Data Types - Numbers, Strings, Bigint, Boolean, Undefined, Null, Symbol, Object
 
