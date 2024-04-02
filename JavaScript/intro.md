@@ -87,16 +87,19 @@
 
 ### namespsace -  conceptual container that provides scope to identifiers; used to prevent collisions between them
 
- ### Variables - containers for storing any type of data
-  ##### declare all variables at the beginning of a script
-  ##### variables declared without a value have a **value AND type** of undefined
+### Variables - containers for storing any type of data
+
+#### declare all variables at the beginning of a script
+
+##### variables declared without a value have a **value AND type** of undefined
+
    **G2K:** you can manually empty a variable by setting it to undefined
    **NOTE:** an empty value isn't synonymous with undefined `let car = ""; // The value is "", the typeof is "string"`
 
-      Scope Redeclare Reassign Hoisted Binds this
+<!--      Scope Redeclare Reassign Hoisted Binds this
 var	   No     Yes	    Yes	     Yes     Yes
 let	   Yes 	  No	    Yes	     No	     No
-const  Yes	  No	    No	     No      No
+const  Yes	  No	    No	     No      No-->
 
 ## Data Types - Numbers, Strings, Bigint, Boolean, Undefined, Null, Symbol, Object
 

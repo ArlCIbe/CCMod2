@@ -15,7 +15,7 @@
   ```bash
    const person = {
    firstName: "John",
-   lastNamhe : "Doe",
+   lastName : "Doe",
    id: 5566,
    fullName : function() {
      return this.firstName + " " + this.lastName;
@@ -38,20 +38,21 @@
 
 ## **NOTE: Do Not Declare Strings, Numbers, and Booleans as Objects**
 
-  ## **this** - a keyword that refers to an object; WHICH object depends on how **this** is being invoked:
-   - object method - refers to the object.
-   - alone - refers to the global object.
-   - function - refers to the global object.
-   - function in strict mode - undefined.
-   - event - refers to the element that received the event.
-   - methods like call(), apply(), and bind() - can refer this to any object.
-   ## in a function definition, **this refers to the object that "owns" it *
-    ## e.g. "person" owns "firstName" in the object literal above
-  ## NOTE: this is **NOT** a variable; you cannot change its value
+## **this** - a keyword that refers to an object; WHICH object depends on how **this** is being invoked
+
+- object method - refers to the object.
+- alone - refers to the global object.
+- function - refers to the global object.
+- function in strict mode - undefined.
+- event - refers to the element that received the event.
+- methods like call(), apply(), and bind() - can refer this to any object.
+
+## in a function definition, **this refers to the object that "owns" it *
+
+## e.g. "person" owns "firstName" in the object literal above
+
+## NOTE: this is **NOT** a variable; you cannot change its value
   
-
- 
-
 ### will organize this later
 
 functions are first-class objects, because they can be passed to other functions, returned from functions, and assigned to variables and properties. They can also have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called
