@@ -1,20 +1,10 @@
-# function - block of code designed to perform a particular task; allows us to reuse code
+# Function - block of code designed to perform a particular task; allows us to reuse code
 
 ## cannot be called without the () operator; accessing it w/o them will return the function itself, NOT the result of the function**
 
-### () may include **parameter** names separated by commas; enclosed in () immediately following the identifier
+### () MAY include **parameter** names separated by commas; enclosed in () immediately following the identifier
 
-### **arguments** are the values received by the function when it is invoked (IOW: **PARAMETERS = VARIABLES & ARGUMENTS = VALUES)
-
-## immediately invoked function expressions - executed immediately after being defined; cannot be referenced after being called unless the global window object is passed as a parameter
-
-### ( --> function keyword --> () --> {code} --> ) --> ()
-
-   ```bash
-    (function(){
-       console.log("This function is called immediately");
-    })();
-   ```
+### arguments are the values received by the function when it is invoked; IOW, parameters are variables and arguments are the values assigned to those variables
 
 ## DECLARED - executed only after being called
 
@@ -100,10 +90,16 @@
 
 #### can only be accessed from WITHIN the function they're declared in (note: this means variables with the same name can be used in other functions)
 
-### IIFEs tidbits
+## immediately invoked function expression (IIFE's) - executed immediately after being defined; cannot be referenced after being called unless the global window object is passed as a parameter
+
+### ( --> function keyword --> () --> {code} --> ) --> ()
+
+   ```bash
+    (function(){
+       console.log("This function is called immediately");
+    })();
+   ```
 
 #### good for initialization tasks
 
-#### useful for when you only need code to execute once
-
-#### wrapping them in () prevents collisions between identifiers and controls visibility of member functions
+#### useful for when you want code to only execute once

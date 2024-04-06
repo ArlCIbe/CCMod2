@@ -76,7 +76,7 @@
 
 ### variables - name of a location that stores data values
 
-### Expressions - combo of operators and operands that computes to a value
+### Expressions -  line of code that produces a value
 
 ### Operators - used to perform operations on operands
 
@@ -97,8 +97,6 @@
 ### compares operands and returns a logical value based on whether the comparison is true
 
 ### Identifiers - unique names that must begin with a letter, dollar sign, or an underscore
-
-### namespsace -  conceptual container that provides scope to identifiers; used to prevent collisions between them
 
 ### Data Types
 
@@ -124,6 +122,4 @@
 
 ### BigInt is used to store really big integer values `let x = BigInt("123456789012345678901234567890")`
 
-
-
-**For later: add examples from the statement line on down**
+### events - "things" that happen to HTML elements

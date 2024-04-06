@@ -1,4 +1,4 @@
-# object - variable that is a container for **properties** and **methods**; usually declared with **const** keyword
+# Object - variable that is a container for **properties** and **methods**; usually declared with **const** keyword
 
 ## defined and/or created with an **object literal** or with keyword **new**
 

@@ -1,4 +1,6 @@
-# Expressions
+# Expressions - a combination of literals, variables, operators, and function calls that produce a value when evaluated
+
+## Conceptually, there are two types of expressions: those that assign a value to a variable, and those that simply have a value
 
 Variables
 
