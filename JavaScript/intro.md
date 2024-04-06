@@ -26,9 +26,9 @@
 <script>document.getElementById("demo").style.fontSize = "35px";</script>
 ```
 
-### Functions - a block of JS code that can be executed when "invoked" or "called" for
+## Functions - a block of JS code that can be executed when "invoked" or "called" for
 
-## Output - JS displays data w/
+## Output - JS data that we can see (as opposed to HTML, which automatically displays in the browser)
 
 ### innerHTML
 
@@ -41,70 +41,89 @@
 ### `document.write()`
 
   **NOTE:** Using document.write() **after** an HTML document is loaded will delete all existing HTML; should only be used for testing.
+
    `<script>document.write(5 + 6);</script>`
 
 ### `window.alert()`
 
+  **NOTE:** `Window` is the global scope object, meaning variables, properties, and methods by default belong to it, so actually writing it is optional. IOW, both of the lines of code below are valid and would give you the same result.
+
   `<script>window.alert(5 + 6);</script>`
-  NOTE: the **window** keyword is optional; **window** is the global scope object, meaning variables, properties, and methods by default belong to it
 
-### `console.log()` - good for debugging
+  `<script>alert(5 + 6)</script>` 
 
-### `window.print()` - prints the content of the current window
+### `console.log()` - displays info in the browser's console; good for debugging as it will display error messages when your code is not working correctly
 
- `<button onclick="window.print()">Print this page</button>`
+### `window.print()` - opens printer dialog box; prints the content of the current window
 
-## Statements - line of code commanding a task in a computer programming language (every program is just a sequence of statements)
+## Statements - line of code commanding a task in a programming language (every program is just a sequence of statements)
+
+### composed of values, operators, expressions, keywords, and comments
+
+### executed, one by one, in the same order as they are written.
 
 ### semicolons go at the end of each *executable* statement
 
-### often start with a keyword to identify the JavaScript action to be performed
+### statements can be grouped together inside {}; this group is called a code block, and it indicates that the statements inside it are meant to be executed together.
 
-## Syntax
+### statements often begin with a keyword; keywords help identify the JS action to be performed
 
-### Values - literals (fixed values) VS variables
+## Syntax - rules that dictate the structure of a programming language's symbols, punctuation, and words
+
+### JS syntax defines two types of values: literals and variables
+
+### literals - numbers can be written w/ or w/o decimals and string is text written in ' ' or " "
+
+### variables - name of a location that stores data values
 
 ### Expressions - combo of operators and operands that computes to a value
 
-#### Operands - part of expression that represents the data being manipulated by the operator
+### Operators - used to perform operations on operands
 
-#### Operators - used to execute operations on operands
+### Operands - values that the operator works on
 
-##### Arithmetic ( + | - | * | / | % | ++ | -- )
+### Types of Operators:
 
-- increment - adds 1 ( ++ ); returns the value from **BEFORE** the increment if placed **AFTER** the operand and returns the value from **AFTER** the increment if placed **BEFORE** the operand
-- decrement - subtracts 1 ( -- ); returns the value from **BEFORE** the increment if placed **AFTER** the operand and returns the value from **AFTER** the increment if placed **BEFORE** the operand
+### Arithmetic ( + | - | * | / | % | ++ | -- )
 
-##### Assignment ( = | += | -= | *= | /= | %= | **= |)
+### increment - adds 1 ( ++ ); returns the value from **BEFORE** the increment if placed **AFTER** the operand and returns the value from **AFTER** the increment if placed **BEFORE** the operand
 
-##### Comparison - compares operands and returns a logical value based on whether the comparison is true
+### decrement - subtracts 1 ( -- ); returns the value from **BEFORE** the increment if placed **AFTER** the operand and returns the value from **AFTER** the increment if placed **BEFORE** the operand
 
-##### ( < | > | <= | >= )
+### Assignment ( = | += | -= | *= | /= | %= | **= |)
 
-### Keywords - used to identify actions to be performed
+### Comparison ( < | > | <= | >= ) 
 
-### Identifiers - unique names that must begin with: a **letter**, **dollar sign**, or an **underscore**
+### compares operands and returns a logical value based on whether the comparison is true
+
+### Identifiers - unique names that must begin with a letter, dollar sign, or an underscore
 
 ### namespsace -  conceptual container that provides scope to identifiers; used to prevent collisions between them
 
-### Variables - containers for storing any type of data
+### Data Types
 
-#### declare all variables at the beginning of a script
+### Numbers 
 
-##### variables declared without a value have a **value AND type** of undefined
+### Strings
 
-   **G2K:** you can manually empty a variable by setting it to undefined
-   **NOTE:** an empty value isn't synonymous with undefined `let car = ""; // The value is "", the typeof is "string"`
+### Bigint
 
-<!--      Scope Redeclare Reassign Hoisted Binds this
-var	   No     Yes	    Yes	     Yes     Yes
-let	   Yes 	  No	    Yes	     No	     No
-const  Yes	  No	    No	     No      No-->
+### Boolean
 
-## Data Types - Numbers, Strings, Bigint, Boolean, Undefined, Null, Symbol, Object
+### Undefined 
 
-### objects - can contain an object, an array, or a date; object properties are written as name:value pairs
+### Null
+
+### Symbol
+
+### Object
+
+### objects - can contain an object, an array, or a date;<br> their properties are written as name:value pairs
 
 ### numbers are always double (64-bit floating point)
 
 ### BigInt is used to store really big integer values `let x = BigInt("123456789012345678901234567890")`
+
+
+
+**For later: add examples from the statement line on down**
