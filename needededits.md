@@ -66,3 +66,6 @@ In object-oriented programming, a class is a template definition of the methods 
 # OLD NOTES:
 
 ## review and make sure I pull any info that I have not already covered elsewhere and add to appropriate files
+
+Parameters: Variables in a method definition that specify what kind of data the method can receive.
+Arguments: Actual values supplied to the method when it is called.
